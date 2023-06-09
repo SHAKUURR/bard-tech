@@ -28,6 +28,19 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FBFDFF;
+  padding: 2rem 0;
+
+  z-index: 9999;
+}
+
+.logo {
+  margin-left: 4rem;
 }
 
 .nav-list {
@@ -71,6 +84,7 @@ nav {
   background-color: #120E7D;
   color: #fff;
   border: none;
+  margin-right: 5rem;
 }
 
 /* HERO-SECTION */
@@ -83,7 +97,7 @@ nav {
 
 .hero-text {
   margin-top: 3rem;
-  width: 50%;
+  width: 53%;
 }
 
 .hero-text h1 {
@@ -686,6 +700,7 @@ label {
 .openMenu {
   font-size: 2rem;
   display: none;
+  margin-right: 3rem;
 }
 
 .closeMenu {
